@@ -1,0 +1,61 @@
+# Xcode
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files
+.DS_Store
+/build/
+/DerivedData/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.xcworkspace
+xcuserdata/
+*.xcuserdatad
+project.xcworkspace/xcuserdata/
+
+# Xcode archives
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+/.build/
+/.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+/Pods/
+Podfile.lock
+
+# Carthage
+/Carthage/Build/
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+/fastlane/test_output
+
+# Build products
+*.app
+*.ipa
+
+# Provisioning and certificates
+*.mobileprovision
+*.cer
+*.p12
+*.keychain
+
+# Other
+.env
+.env.*
+.vscode/
+*.hmap
+*.symlinks
+xcdebugger/
+DerivedData/
+
+# macOS
+.DS_Store
